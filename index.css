@@ -33,14 +33,19 @@ header .container:before{
 }
 
 .container{
-	width: 60%;
+	width: 30%;
 	height: 100%;
-	margin: 0 auto;
+	margin: 30 auto;
+	text-align: left;
+	margin-right: 10px;
+	margin-left: 300px;
 }
 
 section{
 	margin: 2em 0;
 	overflow: hidden;
+	margin-right: 10px;
+	float: right;
 }
 
 section h2{
@@ -53,8 +58,8 @@ section h2{
 
 table{
 	width: 100%;
-	margin-bottom : .5em;
-    table-layout: fixed;
+	margin-bottom : .2em;
+    table-layout: left;
 
 }
 
