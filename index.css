@@ -8,9 +8,9 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: #0c52d3;
 	height: 3em;
-	color: #FFF;
+	color: #ffffff;
 	margin-bottom: 1em;
 }
 
@@ -66,7 +66,7 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #0c52d3;
 	margin-bottom: .5em;
 
 }
@@ -87,20 +87,20 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #0c52d3;
 }
 
 label{
-	color: #555;
+	color: #0c52d3;
 	display: block;
 	margin-bottom: .2em;
 }
 
 .campo{
-	margin: 0;
+	margin: 2px;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #0c52d3;
 	padding: .7em;
 	width: 100%;
 }
@@ -134,8 +134,8 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#0c52d3;
+	border-color: #15025a;
 	width: 20%;
     display: block;
     clear: both;
@@ -159,11 +159,11 @@ button[disabled=disabled], button:disabled {
 }
 
 .campo-invalido{
-	border: 1px solid red;
+	border: 1px solid rgb(0, 162, 255);
 }
 
 .paciente-invalido {
-	background-color: lightcoral;
+	background-color: rgb(0, 162, 255);
 }
 
 #mensagens-erro {
