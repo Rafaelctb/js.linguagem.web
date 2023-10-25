@@ -18,6 +18,7 @@ header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+
 }
 header h2{
 	font-size: 2em;
@@ -32,20 +33,33 @@ header .container:before{
 	vertical-align:	middle;
 }
 
+.container-img{
+	width: 40%;
+	height: 300px;
+	margin-top: 9px;
+	margin-left: 9px;
+	margin-right: 9px;
+	margin-left: 480px;
+}
+
 .container{
-	width: 30%;
+	float: right;
+	width: 40%;
 	height: 100%;
-	margin: 30 auto;
-	text-align: left;
-	margin-right: 10px;
-	margin-left: 300px;
+	margin-right: 50px;
+}
+
+.container-tabela{
+	float: left;
+	height: 50%;
+	width:50%;
+	margin-left: 50px;
+	
 }
 
 section{
 	margin: 2em 0;
 	overflow: hidden;
-	margin-right: 10px;
-	float: right;
 }
 
 section h2{
@@ -54,12 +68,13 @@ section h2{
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: .5em;
+
 }
 
 table{
 	width: 100%;
-	margin-bottom : .2em;
-    table-layout: left;
+	margin-bottom : .5em;
+    table-layout: fixed;
 
 }
 
@@ -99,6 +114,15 @@ label{
 	width: 32%;
 	display: inline-block;
 	padding: 10px 0px;
+}
+.provisorio{
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
 }
 
 button{
