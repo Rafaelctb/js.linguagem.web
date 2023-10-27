@@ -4,7 +4,7 @@
 
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 header{
@@ -34,12 +34,12 @@ header .container:before{
 }
 
 .container-img{
-	width: 40%;
-	height: 300px;
-	margin-top: 9px;
-	margin-left: 9px;
-	margin-right: 9px;
-	margin-left: 480px;
+	width: 50%;
+	height: 350px;
+	margin-top: 11px;
+	margin-left: 11px;
+	margin-right: 11px;
+	margin-left: 450px;
 }
 
 .container{
@@ -120,7 +120,7 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #03a2fd;
 	padding: .7em;
 	width: 100%;
 }
@@ -149,8 +149,8 @@ button:active{
 }
 
 button[disabled=disabled], button:disabled {
-    background-color: gray;
-	border-color: darkgray;
+    background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
 
 }
 
@@ -167,7 +167,7 @@ button[disabled=disabled], button:disabled {
 }
 
 #mensagens-erro {
-	color: red;
+	color: rgb(255, 0, 242);
 }
 
 .fadeOut {
