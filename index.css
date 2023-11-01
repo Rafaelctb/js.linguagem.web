@@ -4,13 +4,13 @@
 
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 header{
-	background-color: #0c52d3;
+	background-color: #001aff;
 	height: 3em;
-	color: #ffffff;
+	color: #FFF;
 	margin-bottom: 1em;
 }
 
@@ -34,12 +34,12 @@ header .container:before{
 }
 
 .container-img{
-	width: 50%;
-	height: 350px;
-	margin-top: 11px;
-	margin-left: 11px;
-	margin-right: 11px;
-	margin-left: 450px;
+	width: 40%;
+	height: 400px;
+	margin-top: 9px;
+	margin-left: 9px;
+	margin-right: 9px;
+	margin-left: 580px;
 }
 
 .container{
@@ -66,7 +66,7 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #0c52d3;
+	border-bottom: 1px solid #001aff;
 	margin-bottom: .5em;
 
 }
@@ -81,26 +81,26 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #001aff;
 	text-align: center;
 }
 
 th{
 	font-weight: bold;
-	background-color: #0c52d3;
+	background-color: #001aff;
 }
 
 label{
-	color: #0c52d3;
+	color: #001aff;
 	display: block;
 	margin-bottom: .2em;
 }
 
 .campo{
-	margin: 2px;
+	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #0c52d3;
+	border: 1px solid #001aff;
 	padding: .7em;
 	width: 100%;
 }
@@ -120,7 +120,7 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #03a2fd;
+	border: 1px solid #001aff;
 	padding: .7em;
 	width: 100%;
 }
@@ -133,9 +133,9 @@ button{
 	cursor: pointer;
 	margin: 0;
 	margin-top: -3px;
-	color: #fff;
-	background-color:#0c52d3;
-	border-color: #15025a;
+	color: #ffffff;
+	background-color:#001aff;
+	border-color: #001aff;
 	width: 20%;
     display: block;
     clear: both;
@@ -149,8 +149,8 @@ button:active{
 }
 
 button[disabled=disabled], button:disabled {
-    background-color: rgb(0, 119, 255);
-	border-color: rgb(0, 119, 255);
+    background-color: #001aff;
+	border-color: #001aff;
 
 }
 
@@ -159,15 +159,15 @@ button[disabled=disabled], button:disabled {
 }
 
 .campo-invalido{
-	border: 1px solid rgb(0, 162, 255);
+	border: 1px solid rgb(255, 0, 217);
 }
 
 .paciente-invalido {
-	background-color: rgb(0, 162, 255);
+	background-color: lightcoral;
 }
 
 #mensagens-erro {
-	color: rgb(255, 0, 242);
+	color: rgb(255, 0, 162);
 }
 
 .fadeOut {
